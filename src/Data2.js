@@ -1,47 +1,47 @@
 const data2 =[
     {
         id: 'i',
-        src: 'http://soundcavern.free.fr/guitar/60s_Rock_Guitar%20-%20Cleangtr%20A2.wav',
+        src: process.env.PUBLIC_URL +'/sounds/i.wav'
     },
     
     {
         id: 'o',
-        src: 'http://www.adrianrose.co.uk/soundbytes/quantum_drive.mp3'
+        src:  process.env.PUBLIC_URL +'/sounds/o.mp3'
     },
     
     {
         id: 'p',
-        src: 'https://www.ee.columbia.edu/~dpwe/sounds/instruments/piano-G3.wav'
+        src: process.env.PUBLIC_URL +'/sounds/p.wav'
     },
     
     {
         id: 'j',
-        src: 'http://machines.hyperreal.org/manufacturers/Casio/RZ-1/samples/tmp/casio-rz1/KIRZ.WAV'
+        src: process.env.PUBLIC_URL +'/sounds/j.wav'
     },
     
     {
         id: 'k',
-        src: 'http://lapoc.de/samples/telshow-tele/cleandiskant-01.wav'
+        src:  process.env.PUBLIC_URL +'/sounds/k.wav'
     },
     
     {
         id: 'l',
-        src: 'http://www.nagasaki-ya.com/aire/sound/lick01.wav'
+        src: process.env.PUBLIC_URL +'/sounds/l.wav'
     },
     
     {
         id: 'b',
-        src: 'http://soundcavern.free.fr/bass/bass001.wav'
+        src: process.env.PUBLIC_URL +'/sounds/b.wav'
     },
     
     {
         id: 'n',
-        src: 'http://cd.textfiles.com/cdaction/cdaction47b/BEAT2000/SOUNDS/SFX/GTRSLIDE.WAV'
+        src:  process.env.PUBLIC_URL +'/sounds/n.wav'
     },
     
     {
         id: 'm',
-        src: 'http://cd.textfiles.com/cubase/CUBASIS/GUITAR/ELECTRIC/7TH.WAV'
+        src: process.env.PUBLIC_URL +'/sounds/m.wav'
     },
     
     
