@@ -7,7 +7,7 @@ function Render (props){
         </div>
        
         <div  className="image">
-          <img src={process.env.PUBLIC_URL + '/sounds/logo.png'} alt="equalizer"/>
+          <img src="https://j.gifs.com/yEGl9X.gif" alt="equalizer"/>
          
         </div>
        
