@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Molle:ital@1&display=swap');
 .App {
   text-align: center;
 }
@@ -36,3 +37,113 @@
     transform: rotate(360deg);
   }
 }
+
+#root{
+  display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+
+}
+.container-all{
+  width: 1000px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 40px;
+  padding-left: 70px;
+  padding-top: 50px;
+  box-shadow: 0 10px 40px rgba(159, 162,177, 0.6);
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  width: 900px;
+  height: 300px;
+  background-color: rgb(96, 213, 248);
+  position: relative;
+  padding: 34px;
+  
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+}
+.image img{
+  width: 200px;
+  height: 200px;
+}
+
+.keyboard-container1{
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  grid-template-rows: 80px 80px 80px;
+  grid-gap: 15px;
+  
+}
+#logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  height: 70px;
+}
+#logo h1{
+  font-family: 'Molle', cursive;
+  font-size: 40px;
+  color:crimson;
+  font-weight: 700;
+  padding: 15px;
+  margin-bottom: 10px;
+  
+}
+.keyboard{
+  text-align: center;
+  cursor: pointer;
+}
+.keyboard:hover{
+ 
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .fas{
+    color: crimson;
+  }
+  .hidden-message{
+    display: none;
+  }
+
+  @media (max-width:720px){
+    #root{
+      
+      background-color: #fff;
+      
+    }
+    .container-all{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .hidden-message{
+      display: block;
+      font-size: 20px;
+    }
+    .container{
+      display: none;
+    }
+    #logo{
+      margin-top: 10px;
+    }
+
+  }

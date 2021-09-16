@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Keyboard from "./Keyboard";
+import data from "./Data";
+import data2 from "./Data2";
+import Render from "./Render";
+import "./App.css"
 
-export default App;
+function App(){
+  //read all objects from data (first keyboard's data) and send to child component's prop
+  const key1 = data.map((item)=>{
+      return <Keyboard id={item.id} key={item.id}  src={item.src}/>
+  });
+  //read all objects from data2 (second keyboard's data) and send to child component's prop
+  const key2 = data2.map((item)=>{
+    return <Keyboard id={item.id} key={item.id}  src={item.src}/>
+
+});
+    return (
+    
+    <Render key1={key1} key2={key2}/>
+
+    )
+  }
+
+export default App
