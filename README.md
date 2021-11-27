@@ -13,7 +13,7 @@ In this project i apply some features of react framework such as
 8. Lists and Keys
 
 
-I want to change some parts of the code in future for example: class components to hooks, lifecycle methods to useEffects(), state to useState() and so on.  
+I want to change some parts of the code in future for example: class components to hooks, lifecycle methods to useEffects(), state to useState() and so on...  
 
 
 ## Installation
